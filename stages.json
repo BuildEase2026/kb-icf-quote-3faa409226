@@ -1,0 +1,71 @@
+{
+ "job": "New Dwelling, Plot 1 Rivendell Park, Douglas",
+ "revision": "Q01",
+ "stages": [
+  {
+   "n": 1,
+   "title": "Pool tank",
+   "desc": "ICF pool tank in Nudura 10in Standard (3 courses, 3.9 x 9.8 m inside, ~1.5 m deep - assumed) on a 300 RC base (indicative - pool specialist / engineer).",
+   "files": [
+    {
+     "glb": "stage-1.glb",
+     "part": null,
+     "label": null,
+     "bytes": 275880
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "title": "Basement",
+   "desc": "Basement raft (BS 8102 Type B, indicative) and the 10in Standard basement walls, 8 courses to the ground floor, cores on the same centre lines as the house above; garage door, pool windows, laundry door; TLSTF basement partitions.",
+   "files": [
+    {
+     "glb": "stage-2.glb",
+     "part": null,
+     "label": null,
+     "bytes": 1172312
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "title": "Ground floor slab and master suite footing",
+   "desc": "GF suspended RC slab over the basement and pool hall (engineer), the 6in XR35 footing (2 courses) and ground-bearing floor of the master suite.",
+   "files": [
+    {
+     "glb": "stage-3.glb",
+     "part": null,
+     "label": null,
+     "bytes": 98148
+    }
+   ]
+  },
+  {
+   "n": 4,
+   "title": "Ground floor ICF, partitions and glazing",
+   "desc": "Ground-floor 6in XR35 walls (14 courses) with the gables raked to the roof, the floor-length windows, bi-folds and the RAKED feature glazing to the gables / under the roof slopes; TLSTF partitions raked to the vaulted ceilings.",
+   "files": [
+    {
+     "glb": "stage-4.glb",
+     "part": null,
+     "label": null,
+     "bytes": 1183120
+    }
+   ]
+  },
+  {
+   "n": 5,
+   "title": "Vaulted roof structure",
+   "desc": "Vaulted roofs with a structural ridge: 63x220 C24 rafters @600, Roof L ridge 120x400 GL24h glulam on three 100x100 SHS posts in the wing partitions, Roof R 140x800 GL24h glulam ridge (indicative - engineer).",
+   "files": [
+    {
+     "glb": "stage-5.glb",
+     "part": null,
+     "label": null,
+     "bytes": 91216
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,389 @@
+{
+ "portal": "BuildEase ICF Project Environment",
+ "project": {
+  "client": "Mr K & Mrs Burrell",
+  "job": "New Dwelling, Plot 1 Rivendell Park, Douglas",
+  "number_prefix": "ES26-084",
+  "status": "QUOTATION",
+  "revision": "Q01",
+  "model_title": "ES26-084 New Dwelling, Plot 1 Rivendell Park, Douglas - Quotation Q01"
+ },
+ "default_view": "stage-5",
+ "views": [
+  {
+   "id": "stage-1",
+   "kind": "stage",
+   "n": 1,
+   "title": "Pool tank",
+   "desc": "ICF pool tank in Nudura 10in Standard (3 courses, 3.9 x 9.8 m inside, ~1.5 m deep - assumed) on a 300 RC base (indicative - pool specialist / engineer).",
+   "focus": false
+  },
+  {
+   "id": "stage-2",
+   "kind": "stage",
+   "n": 2,
+   "title": "Basement",
+   "desc": "Basement raft (BS 8102 Type B, indicative) and the 10in Standard basement walls, 8 courses to the ground floor, cores on the same centre lines as the house above; garage door, pool windows, laundry door; TLSTF basement partitions.",
+   "focus": false
+  },
+  {
+   "id": "stage-3",
+   "kind": "stage",
+   "n": 3,
+   "title": "Ground floor slab and master suite footing",
+   "desc": "GF suspended RC slab over the basement and pool hall (engineer), the 6in XR35 footing (2 courses) and ground-bearing floor of the master suite.",
+   "focus": false
+  },
+  {
+   "id": "stage-4",
+   "kind": "stage",
+   "n": 4,
+   "title": "Ground floor ICF, partitions and glazing",
+   "desc": "Ground-floor 6in XR35 walls (14 courses) with the gables raked to the roof, the floor-length windows, bi-folds and the RAKED feature glazing to the gables / under the roof slopes; TLSTF partitions raked to the vaulted ceilings.",
+   "focus": false
+  },
+  {
+   "id": "stage-5",
+   "kind": "stage",
+   "n": 5,
+   "title": "Vaulted roof structure",
+   "desc": "Vaulted roofs with a structural ridge: 63x220 C24 rafters @600, Roof L ridge 120x400 GL24h glulam on three 100x100 SHS posts in the wing partitions, Roof R 140x800 GL24h glulam ridge (indicative - engineer).",
+   "focus": false
+  },
+  {
+   "id": "elev-N",
+   "kind": "elevation",
+   "n": 5,
+   "title": "North elevation",
+   "dir": [
+    0.0,
+    0.12,
+    -1.0
+   ],
+   "desc": "Complete structure seen from the north."
+  },
+  {
+   "id": "elev-S",
+   "kind": "elevation",
+   "n": 5,
+   "title": "South elevation",
+   "dir": [
+    0.0,
+    0.12,
+    1.0
+   ],
+   "desc": "Complete structure seen from the south."
+  },
+  {
+   "id": "elev-E",
+   "kind": "elevation",
+   "n": 5,
+   "title": "East elevation",
+   "dir": [
+    1.0,
+    0.12,
+    0.0
+   ],
+   "desc": "Complete structure seen from the east."
+  },
+  {
+   "id": "elev-W",
+   "kind": "elevation",
+   "n": 5,
+   "title": "West elevation",
+   "dir": [
+    -1.0,
+    0.12,
+    0.0
+   ],
+   "desc": "Complete structure seen from the west."
+  }
+ ],
+ "stages": [
+  {
+   "n": 1,
+   "title": "Pool tank",
+   "desc": "ICF pool tank in Nudura 10in Standard (3 courses, 3.9 x 9.8 m inside, ~1.5 m deep - assumed) on a 300 RC base (indicative - pool specialist / engineer).",
+   "files": [
+    {
+     "glb": "stage-1.glb",
+     "part": null,
+     "label": null,
+     "bytes": 275880
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "title": "Basement",
+   "desc": "Basement raft (BS 8102 Type B, indicative) and the 10in Standard basement walls, 8 courses to the ground floor, cores on the same centre lines as the house above; garage door, pool windows, laundry door; TLSTF basement partitions.",
+   "files": [
+    {
+     "glb": "stage-2.glb",
+     "part": null,
+     "label": null,
+     "bytes": 1172312
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "title": "Ground floor slab and master suite footing",
+   "desc": "GF suspended RC slab over the basement and pool hall (engineer), the 6in XR35 footing (2 courses) and ground-bearing floor of the master suite.",
+   "files": [
+    {
+     "glb": "stage-3.glb",
+     "part": null,
+     "label": null,
+     "bytes": 98148
+    }
+   ]
+  },
+  {
+   "n": 4,
+   "title": "Ground floor ICF, partitions and glazing",
+   "desc": "Ground-floor 6in XR35 walls (14 courses) with the gables raked to the roof, the floor-length windows, bi-folds and the RAKED feature glazing to the gables / under the roof slopes; TLSTF partitions raked to the vaulted ceilings.",
+   "files": [
+    {
+     "glb": "stage-4.glb",
+     "part": null,
+     "label": null,
+     "bytes": 1183120
+    }
+   ]
+  },
+  {
+   "n": 5,
+   "title": "Vaulted roof structure",
+   "desc": "Vaulted roofs with a structural ridge: 63x220 C24 rafters @600, Roof L ridge 120x400 GL24h glulam on three 100x100 SHS posts in the wing partitions, Roof R 140x800 GL24h glulam ridge (indicative - engineer).",
+   "files": [
+    {
+     "glb": "stage-5.glb",
+     "part": null,
+     "label": null,
+     "bytes": 91216
+    }
+   ]
+  }
+ ],
+ "groups": [
+  {
+   "id": "quote",
+   "title": "Quotation",
+   "note": "The Nudura proposal Rev B (NET GBP 29,139.75: materials, pre-cut, alignment hire, haulage 2 artics), the BOQ package, the artic load plans and the pallet stack sheets.",
+   "zip": {
+    "file": "downloads/ES26-084 Quotation.zip",
+    "bytes": 1134039,
+    "count": 4
+   },
+   "docs": [
+    {
+     "id": "ES26-084-LP-01",
+     "title": "Artic load plans - 2 loads in 2 deliveries",
+     "file": "docs/quote/ES26-084-LP-01 Artic load plans - 2 loads in 2 deliveries.pdf",
+     "pages": 2,
+     "thumb": "thumbs/ES26-084-LP-01.png",
+     "bytes": 34208,
+     "number": "ES26-084-LP-01",
+     "view": "stage-5",
+     "view_opts": {}
+    },
+    {
+     "id": "ES26-084-PR-01",
+     "title": "Quotation Rev B - Nudura ICF supply",
+     "file": "docs/quote/ES26-084-PR-01 Quotation Rev B - Nudura ICF supply.pdf",
+     "pages": 4,
+     "thumb": "thumbs/ES26-084-PR-01.png",
+     "bytes": 374773,
+     "number": "ES26-084-PR-01",
+     "view": "stage-5",
+     "view_opts": {}
+    },
+    {
+     "id": "ES26-084-PS-01",
+     "title": "Pallet stack sheets - 20 pallets",
+     "file": "docs/quote/ES26-084-PS-01 Pallet stack sheets - 20 pallets.pdf",
+     "pages": 20,
+     "thumb": "thumbs/ES26-084-PS-01.png",
+     "bytes": 283097,
+     "number": "ES26-084-PS-01",
+     "view": "stage-5",
+     "view_opts": {}
+    },
+    {
+     "id": "ES26-084-XI-01",
+     "title": "BOQ package - ICF, programme and finishes",
+     "file": "docs/quote/ES26-084-XI-01 BOQ package - ICF, programme and finishes.pdf",
+     "pages": 35,
+     "thumb": "thumbs/ES26-084-XI-01.png",
+     "bytes": 1346782,
+     "number": "ES26-084-XI-01",
+     "view": "stage-5",
+     "view_opts": {}
+    }
+   ],
+   "downloads": [
+    {
+     "file": "downloads/ES26-084 BOQ Package.xlsx",
+     "title": "BOQ package (Excel - ICF bill, programme and finishes bills) (0.4 MB)"
+    }
+   ]
+  },
+  {
+   "id": "icf",
+   "title": "ICF drawings",
+   "note": "ICF general arrangements (pool tank, basement, footing, ground floor), elevations and a section.",
+   "zip": {
+    "file": "downloads/ES26-084 ICF drawings.zip",
+    "bytes": 438627,
+    "count": 7
+   },
+   "docs": [
+    {
+     "id": "ES26-084-GA-01",
+     "title": "Pool Tank ICF General Arrangement",
+     "file": "docs/icf/ES26-084-GA-01 Pool Tank ICF General Arrangement.pdf",
+     "pages": 1,
+     "thumb": "thumbs/ES26-084-GA-01.png",
+     "bytes": 54954,
+     "number": "ES26-084-GA-01",
+     "view": "stage-1",
+     "view_opts": {}
+    },
+    {
+     "id": "ES26-084-GA-02",
+     "title": "Basement ICF General Arrangement",
+     "file": "docs/icf/ES26-084-GA-02 Basement ICF General Arrangement.pdf",
+     "pages": 1,
+     "thumb": "thumbs/ES26-084-GA-02.png",
+     "bytes": 58093,
+     "number": "ES26-084-GA-02",
+     "view": "stage-2",
+     "view_opts": {}
+    },
+    {
+     "id": "ES26-084-GA-03",
+     "title": "Footing ICF General Arrangement",
+     "file": "docs/icf/ES26-084-GA-03 Footing ICF General Arrangement.pdf",
+     "pages": 1,
+     "thumb": "thumbs/ES26-084-GA-03.png",
+     "bytes": 53892,
+     "number": "ES26-084-GA-03",
+     "view": "stage-3",
+     "view_opts": {}
+    },
+    {
+     "id": "ES26-084-GA-04",
+     "title": "Ground Floor ICF General Arrangement",
+     "file": "docs/icf/ES26-084-GA-04 Ground Floor ICF General Arrangement.pdf",
+     "pages": 1,
+     "thumb": "thumbs/ES26-084-GA-04.png",
+     "bytes": 59324,
+     "number": "ES26-084-GA-04",
+     "view": "stage-4",
+     "view_opts": {}
+    },
+    {
+     "id": "ES26-084-EL-01",
+     "title": "North and South Elevations",
+     "file": "docs/icf/ES26-084-EL-01 North and South Elevations.pdf",
+     "pages": 1,
+     "thumb": "thumbs/ES26-084-EL-01.png",
+     "bytes": 113248,
+     "number": "ES26-084-EL-01",
+     "view": "elev-N",
+     "view_opts": {}
+    },
+    {
+     "id": "ES26-084-EL-02",
+     "title": "East and West Elevations",
+     "file": "docs/icf/ES26-084-EL-02 East and West Elevations.pdf",
+     "pages": 1,
+     "thumb": "thumbs/ES26-084-EL-02.png",
+     "bytes": 140705,
+     "number": "ES26-084-EL-02",
+     "view": "elev-E",
+     "view_opts": {}
+    },
+    {
+     "id": "ES26-084-SE-01",
+     "title": "Section A-A",
+     "file": "docs/icf/ES26-084-SE-01 Section A-A.pdf",
+     "pages": 1,
+     "thumb": "thumbs/ES26-084-SE-01.png",
+     "bytes": 67215,
+     "number": "ES26-084-SE-01",
+     "view": "stage-5",
+     "view_opts": {}
+    }
+   ]
+  },
+  {
+   "id": "timber",
+   "title": "Roof and partitions",
+   "note": "The vaulted roof structure and the TLSTF timber partitions (coordination only).",
+   "zip": {
+    "file": "downloads/ES26-084 Roof and partitions.zip",
+    "bytes": 161588,
+    "count": 3
+   },
+   "docs": [
+    {
+     "id": "ES26-084-RF-01",
+     "title": "Vaulted Roof Structure",
+     "file": "docs/timber/ES26-084-RF-01 Vaulted Roof Structure.pdf",
+     "pages": 1,
+     "thumb": "thumbs/ES26-084-RF-01.png",
+     "bytes": 66948,
+     "number": "ES26-084-RF-01",
+     "view": "stage-5",
+     "view_opts": {}
+    },
+    {
+     "id": "ES26-084-TF-01",
+     "title": "Basement Timber Partitions",
+     "file": "docs/timber/ES26-084-TF-01 Basement Timber Partitions.pdf",
+     "pages": 1,
+     "thumb": "thumbs/ES26-084-TF-01.png",
+     "bytes": 63262,
+     "number": "ES26-084-TF-01",
+     "view": "stage-2",
+     "view_opts": {}
+    },
+    {
+     "id": "ES26-084-TF-02",
+     "title": "Ground Floor Timber Partitions",
+     "file": "docs/timber/ES26-084-TF-02 Ground Floor Timber Partitions.pdf",
+     "pages": 1,
+     "thumb": "thumbs/ES26-084-TF-02.png",
+     "bytes": 71524,
+     "number": "ES26-084-TF-02",
+     "view": "stage-4",
+     "view_opts": {}
+    }
+   ]
+  }
+ ],
+ "focus": null,
+ "isolate_stages": false,
+ "toggles": [
+  {
+   "label": "Concrete slabs + raft",
+   "materials": [
+    "KBF RC C32/40 (waterproof concrete)"
+   ],
+   "default": true,
+   "stages": [
+    1,
+    2,
+    3
+   ]
+  }
+ ],
+ "download_all": {
+  "file": "downloads/ES26-084 New Dwelling, Plot 1 Rivendell Park, Douglas - Quotation Q01.zip",
+  "bytes": 1894126,
+  "count": 15,
+  "title": "Download everything"
+ }
+}
