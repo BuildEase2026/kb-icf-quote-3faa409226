@@ -161,7 +161,7 @@
      "glb": "stage-5.glb",
      "part": null,
      "label": null,
-     "bytes": 91216
+     "bytes": 116064
     }
    ]
   }
@@ -324,7 +324,7 @@
    "note": "The vaulted roof structure and the TLSTF timber partitions (coordination only).",
    "zip": {
     "file": "downloads/ES26-084 Roof and partitions.zip",
-    "bytes": 161588,
+    "bytes": 162270,
     "count": 3
    },
    "docs": [
@@ -334,7 +334,7 @@
      "file": "docs/timber/ES26-084-RF-01 Vaulted Roof Structure.pdf",
      "pages": 1,
      "thumb": "thumbs/ES26-084-RF-01.png",
-     "bytes": 66948,
+     "bytes": 67664,
      "number": "ES26-084-RF-01",
      "view": "stage-5",
      "view_opts": {}
@@ -382,7 +382,7 @@
  ],
  "download_all": {
   "file": "downloads/ES26-084 New Dwelling, Plot 1 Rivendell Park, Douglas - Quotation Q01.zip",
-  "bytes": 1894126,
+  "bytes": 1894808,
   "count": 15,
   "title": "Download everything"
  }
